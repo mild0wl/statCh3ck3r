@@ -1,16 +1,26 @@
 package main
 
 import (
-	"statCh3ck3r/cmd"
 	"fmt"
 	"os"
+	"statCh3ck3r/cmd"
 	"strings"
 	"sync"
 )
 
 func main() {
 	fmt.Println("statCh3ck3r.....")
-	fileData, err := cmd.FileInput_func("file.txt")
+
+	// input
+
+	if len(os.Args) < 2 {
+		fmt.Println("Missing parameter, provide file name!")
+		return
+	}
+
+	filename := os.Args[1]
+
+	fileData, err := cmd.FileInput_func(filename)
 
 	if err != nil {
 		fmt.Println("Error: ", err)

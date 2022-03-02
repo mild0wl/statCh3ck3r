@@ -1,9 +1,8 @@
-https://google.com/
-https://example.com/
-http://google.com
-http://fil12e.com/string.js
-http://gmail.google.com/admin.js
-http://123goowosksk.com/
+https://google.com
+http://mail.google.com
 https://yahoo.com
+https://temp-mail.org/
+https://mail.google.com/admin.js
 http://ngrok.io/
-https://temp-mail.org
+https://file123sss.com
+http://slslslle.com
